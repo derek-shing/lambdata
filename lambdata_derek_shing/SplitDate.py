@@ -34,7 +34,9 @@ class SplitDateString:
 
 
 class SplitDate:
+
     df =pd.DataFrame()
+
     def __init__(self, dateseries):
         years = list()
         months = list()
